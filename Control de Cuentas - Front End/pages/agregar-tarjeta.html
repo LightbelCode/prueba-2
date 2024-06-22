@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Tarjeta - Taller Mecánico</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="perfil-cliente.html">Perfil</a></li>
+                <li><a href="reseñas.html">Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-card">
+            <h1>Agregar Tarjeta</h1>
+            <form action="perfil-cliente.html" method="post">
+                <label for="cardholder">Titular de la Tarjeta:</label>
+                <input type="text" id="cardholder" name="cardholder" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <label for="expiry">Fecha de Vencimiento:</label>
+                <input type="text" id="expiry" name="expiry" required>
+
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: (123) 456-7890 | taller@example.com | Dirección: Calle Falsa 123, Ciudad</p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

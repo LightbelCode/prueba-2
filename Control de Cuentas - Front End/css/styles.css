@@ -1,0 +1,91 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Azul para el fondo del cuerpo */
+    color: #333; /* Texto oscuro para mejor legibilidad */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el alto completo del viewport */
+}
+
+header {
+    background-color: #2980b9; /* Azul más oscuro para el encabezado */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1; /* La parte central ocupa todo el espacio restante */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section#gestion-cuentas {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #fff; /* Fondo blanco para la sección de gestión de cuentas */
+}
+
+section#gestion-cuentas h1 {
+    color: #3498db; /* Azul para el título */
+}
+
+section#gestion-cuentas p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section#gestion-cuentas .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2980b9; /* Azul más oscuro para el botón */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+section#gestion-cuentas .button:hover {
+    background-color: #3498db; /* Azul más claro al pasar el ratón */
+}
+
+footer {
+    background-color: #2980b9; /* Azul más oscuro para el pie de página */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+

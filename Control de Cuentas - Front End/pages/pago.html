@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago - Taller Mecánico</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home-cliente.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="perfil-cliente.html">Perfil</a></li>
+                <li><a href="metodos-pago.html">Métodos de Pago</a></li>
+                <li><a href="citas.html">Citas</a></li>
+                <li><a href="historial-servicios.html">Historial de Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="payment">
+            <h1>Realizar Pago</h1>
+            <form action="confirmacion-pago.html" method="post">
+                <label for="card">Seleccionar Tarjeta:</label>
+                <select id="card" name="card" required>
+                    <option value="card1">Tarjeta de Crédito - **** 1234</option>
+                    <!-- Opciones adicionales de tarjetas -->
+                </select>
+
+                <label for="amount">Monto a Pagar:</label>
+                <input type="number" id="amount" name="amount" min="1" step="1" required>
+
+                <button type="submit">Pagar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: (123) 456-7890 | taller@example.com | Dirección: Calle Falsa 123, Ciudad</p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

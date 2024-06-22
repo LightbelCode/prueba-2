@@ -1,0 +1,97 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo gris claro para el cuerpo */
+    color: #1d1d1d; /* Texto oscuro para mejor legibilidad */
+}
+
+header {
+    background-color: #102f8d; /* Azul más oscuro para el encabezado */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #fff; /* Fondo blanco para la parte central */
+    padding: 5px 0;
+    text-align: center;
+    min-height: calc(100vh - 132px); /* Ajuste para el tamaño del footer y header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section#gestion-cuentas {
+    text-align: center;
+    padding: 80px 0;
+}
+
+section#gestion-cuentas h1 {
+    color: #2980b9; /* Azul para el título */
+}
+
+section#gestion-cuentas p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section#gestion-cuentas .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b5277; /* Azul para el botón */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+section#gestion-cuentas .button:hover {
+    background-color: #2440db; /* Azul más claro al pasar el ratón */
+}
+
+footer {
+    background-color: #102f8d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
